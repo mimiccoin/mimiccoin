@@ -19,9 +19,9 @@ public:
      */
     enum Unit
     {
-        QRK,
-        cQRK,
-        mQRK
+        MIC,
+        cMIC,
+        mMIC
     };
 
     //! @name Static API

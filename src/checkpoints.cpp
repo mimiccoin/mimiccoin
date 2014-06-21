@@ -38,43 +38,25 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,     uint256("0x00000c257b93a36e9a4318a64398d661866341331a984e2b486414fc5bb16ccd"))
-        ( 41056, uint256("0x000000001f12305bf0443551030d9f18c5d7b1a6b7eb8e899b1b26fc45924ade"))
-        ( 81847, uint256("0x00000000c164428877cd4d46e2facc881b6b0a803e44a02c1f3b279ae7d58c32"))
-        (308484, uint256("0x000000016bd2ef95ae4a456c6114cd7736a4219de5b75b2139c840650144e143"))
-        (380481, uint256("0x00000003064d1fdbe86f35bfce8c54f88a80ef773e820ca86ae820ed6c4defcc"))
-        (404998, uint256("0x000000004a815d04f437dd83d84866a8a07865f5b47030668a8096df0615361f"))
-        (411932, uint256("0x000000001f3c7ec7251ebc1670fb3f772b42e25356fa02468c02c89199617cd5"))
-        (423094, uint256("0x0000000007001e561197a35026b7c9bbaf0b9a1c918a41d9e7d638e44459f116"))
-        (443157, uint256("0x000000000b103e119485969439ab2203b5578be3fb8b3aab512ebebaca1bce81"))
-        (458433, uint256("0x000000000318a428560180bb8166321a6b20ae78fc0a9b3c560d30476859b2b5"))
-        (464836, uint256("0x00000000079e9a16f173bf610f2ceddc5659aa7e9df2366dea01e346c37f9692"))
-        (467282, uint256("0x0000000004a17401913be0aa29af7ace3335d58a846938d4fee0c749e4828d1d"))
-        (473033, uint256("0x000000000515c71eb7c3de0574d5f6c632d8de9053c626aba22ae3a9eff67e9c"))
-        (538178, uint256("0x000000000a13e56dc5d7962d4e3a852ff24055aa15096085d8173faf95172f4d"))
-        (621138, uint256("0x0000000016a7d31cabbc6257c53d3b58f82f1a897d79066dabcb5ce5b031f8ca"))
-        (714001, uint256("0x000000001d2b41db149991d5e01aee448042de6ac94e12c5ae6299e4fb129f5a"))
-        (797370, uint256("0x000000001b24a2f70ce1e50c19d5f3dd77fbd6e0f0a3eb61b95ceaafb8435636"))
-        (895901, uint256("0x0000000016db7c64fb4bb6475fbb06dca656d32b7864a2d045612660106d411c"))
-        (972235, uint256("0x000000004e92bead093b946351cd2e7125d23e36042687497561db00a77b6ae8"))
+        ( 0,     uint256("0x000008adab7218e8ed282a097251504e5742ffc1a7f757b1e92793a4b01784fc"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1402075019, // * UNIX timestamp of last checkpoint block
-        1371986,    // * total number of transactions between genesis and last checkpoint
+        1403217511, // * UNIX timestamp of last checkpoint block
+        0,          // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        2880.0      // * estimated number of transactions per day after checkpoint
+        288.0       // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet = 
         boost::assign::map_list_of
-        ( 0, uint256("0x00000e5e37c42d6b67d0934399adfb0fa48b59138abb1a8842c88f4ca3d4ec96"))
+        ( 0, uint256("0x00000f81dccd657bae28704464a17240644d7603ebb3e01e1f0a1a40cef50ace"))
         ;
     static const CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1373481000,
+        1403217510,
         0,
-        2880.0
+        288.0
     };
 
     const CCheckpointData &Checkpoints() {
@@ -489,8 +471,8 @@ namespace Checkpoints
 }
 
 // ppcoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMainPubKey = "0466aa7cf205be5c40f114c80d0d4087959508ace5642c9b849af1ba78d7c6b969f3e8d36b3d44e5a0ac1d2d8f3e6f7452055713943870700385544c2a04c5aa55";
-const std::string CSyncCheckpoint::strTestPubKey = "041ba70a9e3afd1c0c13b7577e4f71ede2eee884df617fa28bfb0ee3fe993b9cc2835c16b794e46095bf425c4e2cdc2e628becdb196f0302840282d3d32d6c69bd";
+const std::string CSyncCheckpoint::strMainPubKey = "0425d09d3d736ce040111c18bf1a6f69caa260a54f0055c09faf7358250eeb8ec40503060cb943bf6886cd8703e1aca2d871ac2c9b44d3e7f854096ead1fa77142";
+const std::string CSyncCheckpoint::strTestPubKey = "040b127d97d9b6a53fea1b86299d06ddeef6cc40f8c9a67d3db804237da93b54b547a95854f8c5c9d347c494619cad67a1f8a2af2c20ed51a192f8d2ccc455d2ab";
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
 // ppcoin: verify signature of sync-checkpoint message

@@ -56,7 +56,7 @@ void OptionsModel::Init()
     QSettings settings;
 
     // These are Qt-only settings:
-    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::QRK).toInt();
+    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::MIC).toInt();
     bDisplayAddresses = settings.value("bDisplayAddresses", false).toBool();
     fMinimizeToTray = settings.value("fMinimizeToTray", false).toBool();
     fMinimizeOnClose = settings.value("fMinimizeOnClose", false).toBool();
@@ -74,12 +74,12 @@ void OptionsModel::Init()
     if (!language.isEmpty())
         SoftSetArg("-lang", language.toStdString());
         
-    // Mining enabled by default in QT with 1 thread if not overriden 
+    // Mining disabled by default in QT if not overriden 
     // by command-line options
     if (settings.contains("bMiningEnabled"))
         SoftSetBoolArg("-gen", settings.value("bMiningEnabled").toBool());
     else
-        SoftSetBoolArg("-gen", true);
+        SoftSetBoolArg("-gen", false);
     if (settings.contains("nMiningIntensity"))
         SoftSetArg("-genproclimit", settings.value("nMiningIntensity").toString().toStdString());
     else

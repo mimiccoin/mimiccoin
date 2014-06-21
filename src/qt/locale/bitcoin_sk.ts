@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Quark</source>
-        <translation>O Quark</translation>
+        <source>About Mimic</source>
+        <translation>O Mimic</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Quark&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Quark&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;Mimic&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Mimic&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Quark Developers</source>
+        <source>The Mimic Developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Quark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú Vaše Quark adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
+        <source>These are your Mimic addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú Vaše Mimic adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Quark address</source>
+        <source>Sign a message to prove you own a Mimic address</source>
         <translation>Podpísať správu a dokázať že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Quark address</source>
+        <source>Verify a message to ensure it was signed with a specified Mimic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Mimic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUARK&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE QUARKCOINY&lt;/b&gt;!⏎</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MIMIC&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE MIMICCOINY&lt;/b&gt;!⏎</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
-        <translation>Quark sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou quarkov pomocou škodlivého software.</translation>
+        <source>Mimic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mimics from being stolen by malware infecting your computer.</source>
+        <translation>Mimic sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou mimicov pomocou škodlivého software.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Quark</source>
-        <translation>Zobraziť informácie o Quark</translation>
+        <source>Show information about Mimic</source>
+        <translation>Zobraziť informácie o Mimic</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Quark address</source>
-        <translation>Poslať quarks na adresu</translation>
+        <source>Send coins to a Mimic address</source>
+        <translation>Poslať mimics na adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Quark</source>
-        <translation>Upraviť možnosti nastavenia pre quark</translation>
+        <source>Modify configuration options for Mimic</source>
+        <translation>Upraviť možnosti nastavenia pre mimic</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Quark</source>
+        <source>Mimic</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Quark</source>
-        <translation>&amp;O Quark</translation>
+        <source>&amp;About Mimic</source>
+        <translation>&amp;O Mimic</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
+        <source>Sign messages with your Mimic addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
+        <source>Verify messages to ensure they were signed with specified Mimic addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Quark client</source>
-        <translation>Quark klient</translation>
+        <source>Mimic client</source>
+        <translation>Mimic klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n aktívne spojenie v Quark sieti</numerusform><numerusform>%n aktívne spojenia v Quark sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
+        <source>%n active connection(s) to Mimic network</source>
+        <translation><numerusform>%n aktívne spojenie v Mimic sieti</numerusform><numerusform>%n aktívne spojenia v Mimic sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -650,7 +650,7 @@ Adresa: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Mimic address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -665,7 +665,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Quark can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Mimic can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -731,8 +731,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Quark address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou quark.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Mimic address.</source>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou mimic.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -750,7 +750,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Quark-Qt</source>
+        <source>Mimic-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -813,13 +813,13 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Automaticky spustiť Quark po zapnutí počítača</translation>
+        <source>Automatically start Mimic after logging in to the system.</source>
+        <translation>Automaticky spustiť Mimic po zapnutí počítača</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Spustiť Quark pri spustení systému správy okien</translation>
+        <source>&amp;Start Mimic on system login</source>
+        <translation>&amp;Spustiť Mimic pri spustení systému správy okien</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -838,8 +838,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Quark na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Mimic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Mimic na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -848,8 +848,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Quark network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť do siete Quark cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
+        <source>Connect to the Mimic network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť do siete Mimic cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -923,7 +923,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mimic.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -938,7 +938,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Quark addresses in the transaction list or not.</source>
+        <source>Whether to show Mimic addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -990,7 +990,7 @@ Adresa: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Quark.</source>
+        <source>This setting will take effect after restarting Mimic.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1009,7 +1009,7 @@ Adresa: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mimic network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1063,7 +1063,7 @@ Adresa: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start mimic: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1213,7 +1213,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Quark-Qt help message to get a list with possible Quark command-line options.</source>
+        <source>Show the Mimic-Qt help message to get a list with possible Mimic command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1233,12 +1233,12 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Quark - Debug window</source>
+        <source>Mimic - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Quark Core</source>
+        <source>Mimic Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1248,7 +1248,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Mimic debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1258,7 +1258,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Quark RPC console.</source>
+        <source>Welcome to the Mimic RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1284,7 +1284,7 @@ Adresa: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Poslať Quarks</translation>
+        <translation>Poslať Mimics</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1334,7 +1334,7 @@ Adresa: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie quarks</translation>
+        <translation>Potvrdiť odoslanie mimics</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1442,8 +1442,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Quark address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Zadajte Quark adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <source>Enter a Mimic address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
+        <translation>Zadajte Mimic adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1466,7 @@ Adresa: %4</translation>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Zadajte Quark adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <translation>Zadajte Mimic adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1507,7 +1507,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Mimic address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -1539,11 +1539,11 @@ Adresa: %4</translation>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Zadajte Quark adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <translation>Zadajte Mimic adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
+        <source>Verify the message to ensure it was signed with the specified Mimic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1559,8 +1559,8 @@ Adresa: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Quark address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Zadajte Quark adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <source>Enter a Mimic address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
+        <translation>Zadajte Mimic adresu (napr. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1569,7 +1569,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Quark signature</source>
+        <source>Enter Mimic signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1643,7 +1643,7 @@ Adresa: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Quark Developers</source>
+        <source>The Mimic Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Poslať Quarks</translation>
+        <translation>Poslať Mimics</translation>
     </message>
 </context>
 <context>
@@ -2178,11 +2178,11 @@ Adresa: %4</translation>
     </message>
 </context>
 <context>
-    <name>quark-core</name>
+    <name>mimic-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Quark version</source>
-        <translation>Quark verzia</translation>
+        <source>Mimic version</source>
+        <translation>Mimic verzia</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2191,8 +2191,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or quarkd</source>
-        <translation>Odoslať príkaz -server alebo quarkd</translation>
+        <source>Send command to -server or mimicd</source>
+        <translation>Odoslať príkaz -server alebo mimicd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2211,13 +2211,13 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: mimiccoin.conf)</source>
+        <translation>Určiť súbor s nastaveniami (predvolené: mimiccoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: quarkcoind.pid)</translation>
+        <source>Specify pid file (default: mimiccoind.pid)</source>
+        <translation>Určiť súbor pid (predvolené: mimiccoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2294,13 +2294,13 @@ Adresa: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=mimicrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Mimic Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2316,7 +2316,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Quark is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Mimic is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2361,7 +2361,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Quark will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Mimic will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2611,8 +2611,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite Quark Wiki pre návod na nastavenie SSL)</translation>
+        <source>SSL options: (see the Mimic Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosť: (pozrite Mimic Wiki pre návod na nastavenie SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,13 +2801,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Quark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Mimic</source>
+        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Mimic</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Quark to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Quark</translation>
+        <source>Wallet needed to be rewritten: restart Mimic to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Mimic</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2866,7 +2866,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Quark is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Mimic is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

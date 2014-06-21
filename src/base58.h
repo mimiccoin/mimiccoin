@@ -272,10 +272,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 58,
+        PUBKEY_ADDRESS = 50,
         SCRIPT_ADDRESS = 9,
-        PUBKEY_ADDRESS_TEST = 119,
-        SCRIPT_ADDRESS_TEST = 199,
+        PUBKEY_ADDRESS_TEST = 111,
+        SCRIPT_ADDRESS_TEST = 119,
     };
 
     bool Set(const CKeyID &id) {
@@ -426,13 +426,7 @@ public:
         bool fExpectTestNet = false;
         switch(nVersion)
         {
-            case 128:
-                break;
             case PRIVKEY_ADDRESS:
-                break;
-
-            case 239:
-                fExpectTestNet = true;
                 break;
             case PRIVKEY_ADDRESS_TEST:
                 fExpectTestNet = true;
